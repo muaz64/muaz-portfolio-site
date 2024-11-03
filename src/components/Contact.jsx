@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section id="contact" className="py-16 bg-primary-content">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-bold text-charcoal-gray mb-8">Contact Me</h2>
+        <h2 className="text-3xl font-bold text-charcoal-gray mb-10">Contact Me</h2>
         <div className="flex flex-col md:flex-row justify-around">
           <div>
             <h4 className="text-lg font-semibold">Phone</h4>
