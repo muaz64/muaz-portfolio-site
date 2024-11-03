@@ -1,32 +1,20 @@
-import React from 'react'
+import React from 'react';
 
-const Navbar = () => {
+function Navbar() {
   return (
-    <nav className='sticky top-3 z-50 bg-emerald-900 text-white px-8 md:px-16 lg:px-24'>
-        <div className='container py2 flex justify-center md:justify-between items-center'>
-            <div className='text-2xl font-bold hidden md:inline'>Muaz</div>
-            <div className='space-x-6'>
-                <ul className='flex parent-div'>
-                    <li className='button my-4 cursor-pointer lg:mx-3'>
-                        <a href="home" className='hover:text-slate-900 px-4 py-1 block'>Home</a></li>
-                    <li className='button my-4 cursor-pointer lg:mx-3'>
-                        <a href="about" className='hover:text-slate-900 px-4 py-1 block'>About</a></li>
-                    <li className='button my-4 cursor-pointer lg:mx-3'>
-                        <a href="skill" className='hover:text-slate-900 px-4 py-1 block'>Skill</a></li>
-                    <li className='button my-4 cursor-pointer lg:mx-3'>
-                        <a href="projects" className='hover:text-slate-900 px-4 py-1 block'>Projects</a></li>
-                    <li className='button my-4 cursor-pointer lg:mx-3'>
-                        <a href="contact" className='hover:text-slate-900 px-4 py-1 block'>Contact</a></li>
-
-                </ul>
-
-
-            </div>
-        </div>
-
+    <nav className="bg-charcoal-gray text-white fixed w-full shadow-md">
+      <div className="container mx-auto flex justify-between items-center py-4">
+        <h1 className="text-2xl font-bold">Muaz Muhammad</h1>
+        <ul className="hidden md:flex space-x-6 font-semibold">
+          <li><a href="#home" className="hover:text-teal">Home</a></li>
+          <li><a href="#about" className="hover:text-teal">About</a></li>
+          <li><a href="#services" className="hover:text-teal">Services</a></li>
+          <li><a href="#projects" className="hover:text-teal">Projects</a></li>
+          <li><a href="#contact" className="hover:text-teal">Contact</a></li>
+        </ul>
+      </div>
     </nav>
-       
-  )
+  );
 }
 
-export default Navbar
+export default Navbar;
