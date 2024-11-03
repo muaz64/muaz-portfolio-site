@@ -1,9 +1,28 @@
-import React from 'react'
+import React from 'react';
 
-const Contact = () => {
+function Contact() {
   return (
-    <div>Contact</div>
-  )
+    <section id="contact" className="py-16 bg-primary-content">
+      <div className="container mx-auto text-center">
+        <h2 className="text-3xl font-bold text-charcoal-gray mb-8">Contact Me</h2>
+        <div className="flex flex-col md:flex-row justify-around">
+          <div>
+            <h4 className="text-lg font-semibold">Phone</h4>
+            <p>+880 178 839 7864</p>
+            <p>+880 188 619 6767</p>
+          </div>
+          <div>
+            <h4 className="text-lg font-semibold">Email</h4>
+            <p>muazmuhammad21@gmail.com</p>
+          </div>
+          <div>
+            <h4 className="text-lg font-semibold">Address</h4>
+            <p>Patiya, Chittagong, Bangladesh</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
 }
 
-export default Contact
+export default Contact;
