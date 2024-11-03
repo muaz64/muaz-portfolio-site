@@ -3,7 +3,7 @@ import { FaFacebookF, FaInstagram, FaLinkedinIn, FaGithub } from 'react-icons/fa
 
 function Footer() {
   return (
-    <footer className="bg-neutral-content text-black py-6 text-center">
+    <footer className=" text-black py-6 text-center mt-5">
       <div className="container">
         <h4 className='mb-6'>Thank You for your Visit</h4>
         <p className="text-teal mb-6">Connect with me</p>
