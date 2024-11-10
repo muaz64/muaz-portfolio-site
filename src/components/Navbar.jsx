@@ -60,10 +60,7 @@ function Navbar() {
                   </svg>
                 </div>
               </div>
-              <ul
-                tabIndex={0}
-                className="parent-div dropdown-content rounded-box z-[1] mt-5 p-4"
-              >
+              <ul tabIndex={0}className="parent-div dropdown-content rounded-box z-[1] mt-5 p-4">
                 {menu}
               </ul>
             </div>
