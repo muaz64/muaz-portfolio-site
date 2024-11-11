@@ -15,14 +15,14 @@ function Projects() {
   return (
     <section id="projects" className="py-16">
        <h2 className="text-3xl font-bold text-secondary text-center mb-20">Recent Projects</h2>
-      <div className="container mx-auto">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div className="container parent-div mx-5 md:mx-10 lg:my-10 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 p-10">
           {projects.map((project, index) => (
-            <div key={index} className="border rounded-lg overflow-hidden bg-white shadow-lg hover:shadow-xl">
-              <img src={project.image} alt={project.title} className="rounded-lg mb-4 w-full h-48 object-cover"/>
+            <div key={index} className="border rounded-lg overflow-hidden bg-gray-50 shadow-lg hover:shadow-xl">
+              <img src={project.image} alt={project.title} className="rounded-lg mb-4 w-full h-48 object-contain"/>
               <div className="p-4">
-                <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-                <a href={project.link} className="text-teal hover:text-charcoal-gray" target="_blank" rel="noopener noreferrer">View Project</a>
+                <h3 className="text-xl text-teal-500 font-semibold mb-2">{project.title}</h3>
+                <a href={project.link} className="text-black hover:text-secondary" target="_blank" rel="noopener noreferrer">View Project</a>
               </div>
             </div>
           ))}
