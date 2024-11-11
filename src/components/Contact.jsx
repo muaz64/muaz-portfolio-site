@@ -61,7 +61,7 @@ function Contact() {
             />
             <textarea
               placeholder="Message"
-              name="message"
+              name="message"  
               rows="4"
               className="w-full contact-div  p-3 mb-4  rounded-lg focus:outline-none"
               required

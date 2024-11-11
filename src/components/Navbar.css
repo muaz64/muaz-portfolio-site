@@ -20,3 +20,14 @@
   .button:hover {
     box-shadow: none;
   }
+  
+  .btn {
+    border-radius: 50px;
+    background: #dedede;
+    box-shadow: -5px 5px 10px #bdbdbd, 5px -5px 10px #fff;
+    transition: transform 0.2s;
+}
+
+.btn:hover {
+    transform: scale(1.1); /* Adds a hover effect to scale up */
+}

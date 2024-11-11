@@ -16,7 +16,7 @@ export default {
         },
       },
       animation: {
-        slidein: "slidein 1s ease 500ms",
+        slidein: "slidein 3s ease 500ms",
       },
     },
   },
