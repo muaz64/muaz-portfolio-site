@@ -3,3 +3,9 @@
     background: #dedede;
     box-shadow: inset -5px 5px 10px #bdbdbd, inset 5px -5px 10px #fff;
 }
+ .contact-div{
+    border-radius: 5px;
+    background: #ebebeb;
+    box-shadow: inset -5px 5px 10px #bdbdbd, inset 5px -5px 10px #fff;
+
+ }
