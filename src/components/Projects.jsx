@@ -3,6 +3,7 @@ import project1 from '../assets/project1.jpeg';
 import project2 from '../assets/project2.jpeg';
 import project3 from '../assets/project3.jpeg';
 import project4 from '../assets/project4.jpeg';
+import project5 from '../assets/project5.jpeg';
 
 function Projects() {
   const projects = [
@@ -10,6 +11,7 @@ function Projects() {
     { title: 'E-Shop Site', link: 'https://muaz64.github.io/E-shop-bs-project/', image: project2 },
     { title: 'Travel Website', link: 'https://muaz64.github.io/Project03/', image: project3 },
     { title: 'Food Order Form', link: 'https://muaz64.github.io/project04/', image: project4 },
+    { title: 'Landing page usung Tailwind', link: 'https://landing-page-tw-project.netlify.app/', image: project5 },
   ];
 
   return (
