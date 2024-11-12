@@ -11,8 +11,8 @@ function Home() {
         <p className="text-lg md:text-xl mt-4 font-bold text-cyan-800 animate-slidein ...">
           I'm an aspiring engineer and front-end developer. I create beautiful, user-friendly websites.
         </p>
-        <a href="#services" className="mt-6 inline-block px-8 py-3 text-white bg-neutral-500 hover:bg-indigo-400 rounded-md">
-          Learn More
+        <a href="#contact" className="mt-6 btn-home  inline-block px-8 py-3 text-white hover:text-secondary font-bold hover:bg-teal-400 rounded-md">
+          Contact Me
         </a>
       </div>
     </section>
