@@ -4,6 +4,7 @@ import project2 from '../assets/project2.jpeg';
 import project3 from '../assets/project3.jpeg';
 import project4 from '../assets/project4.jpeg';
 import project5 from '../assets/project5.jpeg';
+import project6 from '../assets/project6.jpeg';
 
 function Projects() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -33,6 +34,12 @@ function Projects() {
       link: 'https://landing-page-tw-project.netlify.app/', 
       image: project5,
       description: 'A modern landing page designed with Tailwind CSS for a sleek look.'
+    },
+    { 
+      title: 'Google Flights clone', 
+      link: 'https://googleflightsclone.netlify.app/', 
+      image: project6,
+      description: 'A fully responsive clone of Google Flights, built using React, TypeScript, Vite, and Material UI, with live flight data fetched from the Sky Scrapper API via RapidAPI.'
     },
   ];
 
