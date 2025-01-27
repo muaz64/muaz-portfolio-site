@@ -45,7 +45,7 @@ function Projects() {
       title: 'My Mini JS Projects', 
       link: 'https://my-mini-js-projects.vercel.app/', 
       image: project7,
-      description: 'Welcome to My Mini Projects! Here, you wll find a collection of my JavaScript projects, showcasing how I transform ideas into functional applications.'
+      description: 'My Mini Projects showcases a collection of JavaScript applications that I have developed. Each project demonstrates different functionalities, ranging from tools like a Cash Calculator and Password Generator to more interactive apps like a Poll System and Mindful Breathing Timer. The projects utilize HTML, CSS, and JavaScript to create user-friendly and visually appealing interfaces. Explore the live previews to see each app in action!'
     },
   ];
 
