@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import project1 from '../assets/project1.jpeg';
 import project2 from '../assets/project2.jpeg';
 import project3 from '../assets/project3.jpeg';
 import project4 from '../assets/project4.jpeg';
 import project5 from '../assets/project5.jpeg';
 import project6 from '../assets/project6.jpeg';
+import project7 from '../assets/project7.jpeg'
 
 function Projects() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -40,6 +40,12 @@ function Projects() {
       link: 'https://googleflightsclone.netlify.app/', 
       image: project6,
       description: 'A fully responsive clone of Google Flights, built using React, TypeScript, Vite, and Material UI, with live flight data fetched from the Sky Scrapper API via RapidAPI.'
+    },
+    { 
+      title: 'My Mini JS Projects', 
+      link: 'https://my-mini-js-projects.vercel.app/', 
+      image: project7,
+      description: 'Welcome to My Mini Projects! Here, you wll find a collection of my JavaScript projects, showcasing how I transform ideas into functional applications.'
     },
   ];
 
