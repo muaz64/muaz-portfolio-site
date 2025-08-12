@@ -1,36 +1,35 @@
 /* Keyframes for typing effect */
 @keyframes typing {
-    from {
-      width: 0;
-    }
-    to {
-      width:25%;
-    }
+  from {
+    width: 0;
   }
-  
-  /* Keyframes for the blinking cursor */
-  @keyframes blink {
-    50% {
-      border-color: transparent;
-    }
+  to {
+    width: 25%;
   }
-  
-  /* Applying typing effect and blinking cursor to the span */
-  .typing-effect {
-    display: inline-block;
-    overflow: hidden;
-    white-space: nowrap;
-    animation: typing 3s steps(50, end) forwards, blink 0.5s step-end 3;
-    width: fit-content; /* Ensures the span shrinks to content */
+}
+
+/* Keyframes for the blinking cursor */
+@keyframes blink {
+  50% {
+    border-color: transparent;
   }
-  .btn-home {
-    border-radius: 50px;
-    background: #a3a3a3;
-    box-shadow: -5px 5px 10px #bdbdbd, 5px -5px 10px #fff;
-    transition: transform 0.2s;
+}
+
+/* Applying typing effect and blinking cursor to the span */
+.typing-effect {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: typing 3s steps(50, end) forwards, blink 0.5s step-end infinite;
+  width: auto; /* Ensures the span shrinks to content */
+}
+.btn-home {
+  border-radius: 50px;
+  background: #a3a3a3;
+  box-shadow: -5px 5px 10px #bdbdbd, 5px -5px 10px #fff;
+  transition: transform 0.2s;
 }
 
 .btn:hover {
-    transform: scale(1.1); /* Adds a hover effect to scale up */
+  transform: scale(1.1); /* Adds a hover effect to scale up */
 }
-  

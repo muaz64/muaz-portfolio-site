@@ -19,7 +19,7 @@ function Projects() {
     },
     { 
       title: 'Travel Website', 
-      link: 'https://muaz64.github.io/Project03/', 
+      link: 'https://vromontravelwebsite.netlify.app/', 
       image: project3,
       description: 'A beautiful travel booking website with animations and user-friendly design.'
     },
