@@ -9,7 +9,7 @@ function Home() {
       <div>
         <h2 className=" text-2xl ">
           Hi there! I'm{" "}
-          <span className="text-teal-500 typing-effect font-semibold">Muaz Muhammad</span>
+          <strong className="text-teal-500 typing-effect font-semibold">Muaz Muhammad</strong>
         </h2>
         <br />
         <h1 className="text-4xl md:text-6xl font-bold text-zinc-800 animate-slidein ">

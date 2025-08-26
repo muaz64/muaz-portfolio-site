@@ -1,4 +1,3 @@
-import React from "react";
 import "./Navbar.css";
 
 function Navbar() {
@@ -15,27 +14,50 @@ function Navbar() {
         </a>
       </li>
       <li className="button my-4 cursor-pointer lg:mx-3">
-        <a href="#services" className="text-error hover:text-teal px-4 py-1 block">
+        <a
+          href="#services"
+          className="text-error hover:text-teal px-4 py-1 block"
+        >
           Services
         </a>
       </li>
       <li className="button my-4 cursor-pointer lg:mx-3">
-        <a href="#projects" className="text-error hover:text-teal px-4 py-1 block">
+        <a
+          href="#skills"
+          className="text-error hover:text-teal px-4 py-1 block"
+        >
+          Skills
+        </a>
+      </li>
+      <li className="button my-4 cursor-pointer lg:mx-3">
+        <a
+          href="#projects"
+          className="text-error hover:text-teal px-4 py-1 block"
+        >
           Projects
         </a>
       </li>
       <li className="button my-4 cursor-pointer lg:mx-3">
-        <a href="#contact" className="text-error hover:text-teal px-4 py-1 block">
+        <a
+          href="#contact"
+          className="text-error hover:text-teal px-4 py-1 block"
+        >
           Contact
         </a>
       </li>
     </>,
   ];
+
   return (
     <div className="sticky top-3 z-50">
       <div className="mx-5">
         <div className="navbar font-medium">
-           <div className="navbar-start"><h1 className="button p-3 text-2xl hover:text-teal font-bold">Muaz</h1></div>
+          <div className="navbar-start">
+            <h1 className="button p-3 text-2xl hover:text-teal font-bold">
+              Muaz
+            </h1>
+          </div>
+
           <div className="navbar-end flex-grow lg:flex-grow-0">
             <div className="dropdown">
               <div className="parent-div p-2 block lg:hidden">
@@ -60,12 +82,16 @@ function Navbar() {
                   </svg>
                 </div>
               </div>
-              <ul tabIndex={0}className="parent-div dropdown-content rounded-box z-[1] mt-5 p-4">
+              <ul
+                tabIndex={0}
+                className="parent-div dropdown-content rounded-box z-[1] mt-5 p-4"
+              >
                 {menu}
               </ul>
             </div>
           </div>
-          <div className="navbar-end   hidden lg:flex flex-grow justyfy-end w-10/12">
+
+          <div className="navbar-end hidden lg:flex flex-grow justify-end w-10/12">
             <ul tabIndex={0} className="flex parent-div">
               {menu}
             </ul>
