@@ -4,14 +4,14 @@ function Home() {
   return (
     <section
       id="home"
-      className="flex items-center justify-center text-center my-10 py-10 lg:py-20"
+      className="flex items-center justify-center text-center py-10 lg:py-20 mb-30"
     >
       <div>
-        <h2 className=" text-2xl ">
+        <h3 className=" text-2xl font-semibold animate-slidein">
           Hi there! I'm{" "}
-          <strong className="text-teal-500 typing-effect font-semibold">Muaz Muhammad</strong>
-        </h2>
-        <br />
+        </h3>
+        <h1 className="text-teal-500 typing-effect font-bold text-4xl">Muaz Muhammad</h1>
+        <br/>
         <h1 className="text-4xl md:text-6xl font-bold text-zinc-800 animate-slidein ">
           Welcome to My Portfolio
         </h1>
@@ -21,7 +21,7 @@ function Home() {
         </p>
         <a
           href="#contact"
-          className="mt-6 btn-home  inline-block px-8 py-3 text-white hover:text-secondary font-bold hover:bg-teal-400 rounded-md"
+          className="mt-6 btn-home  inline-block px-8 py-3 text-white hover:text-secondary-content font-bold hover:bg-teal-400 rounded-md"
         >
           Contact Me
         </a>

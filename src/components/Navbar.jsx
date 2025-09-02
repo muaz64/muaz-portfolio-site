@@ -15,18 +15,18 @@ function Navbar() {
       </li>
       <li className="button my-4 cursor-pointer lg:mx-3">
         <a
-          href="#services"
-          className="text-error hover:text-teal px-4 py-1 block"
-        >
-          Services
-        </a>
-      </li>
-      <li className="button my-4 cursor-pointer lg:mx-3">
-        <a
           href="#skills"
           className="text-error hover:text-teal px-4 py-1 block"
         >
           Skills
+        </a>
+      </li>
+      <li className="button my-4 cursor-pointer lg:mx-3">
+        <a
+          href="#services"
+          className="text-error hover:text-teal px-4 py-1 block"
+        >
+          Services
         </a>
       </li>
       <li className="button my-4 cursor-pointer lg:mx-3">

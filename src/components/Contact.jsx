@@ -3,8 +3,8 @@ import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 
 function Contact() {
   return (
-    <section id="contact" className="pt-20">
-       <h2 className="text-3xl font-bold text-secondary mb-20">Contact Me</h2>
+    <section id="contact" className="pt-20 mb-10">
+       <h2 className="text-4xl font-bold mb-20">Contact Me</h2>
       <div className="container mx-auto p-8 border border-gray-300 rounded-lg shadow-xl flex flex-col md:flex-row justify-between">
         {/* Contact Info Section */}
         <div className="md:w-1/3 mb-8 md:mb-0">
